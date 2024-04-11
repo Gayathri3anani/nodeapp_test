@@ -16,7 +16,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.GAYATHRI3ANANI }}
-          password: ${{ secrets.Gayathri3@aneni }}
+          password: ${{ secrets.dckr_pat_mjaiabkn4wgXZhFUuJKlBhTdQY8 }}
       
       - name: Extract metadata (tags, labels) for Docker
         id: meta
